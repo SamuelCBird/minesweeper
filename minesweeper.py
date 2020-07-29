@@ -55,7 +55,7 @@ class Sprite(pygame.sprite.Sprite):
 
     def __init__(self, x, y):
         pygame.sprite.Sprite.__init__(self)
-
+        
         self.image = image_dict.get("unclicked")
         self.rect = self.image.get_rect()
         self.image.blit(self.image, self.rect)
