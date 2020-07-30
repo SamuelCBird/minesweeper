@@ -3,6 +3,7 @@ import random
 import timer_widget as timer
 import threading
 import time
+import constants
 
 
 class Smiley(pygame.sprite.Sprite):
@@ -267,7 +268,7 @@ if __name__ == "__main__":
     pygame.init()
 
     # define some colours
-    DEFAULT_GREY = (192, 192, 192)
+    DEFAULT_GREY = constants.DEFAULT_GREY
 
     # define game settings
     BLOCK_SIZE = 16
