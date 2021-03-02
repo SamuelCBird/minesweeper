@@ -6,13 +6,13 @@ The official Minesweeper went through many versions and I've tried to recreate t
 
 ## Build Status
 
-This game runs and works as expected (to my knowledge). 
+This game runs and works as expected. 
 
 ## Known Bugs or Inconsistencies
 
-- The smiley button is there, and the face changes in response to various actions as it should, but I never got round to implementing the click to start a new game. So to start a new game you have to quit and rerun the script. I'm intending to add this in due course.
+- The smiley button is there, and the face changes in response to various actions as it should, but the click to start a new game function is not implemented yet. So to start a new game you have to quit and rerun the script. I'm intending to add this in due course.
 
-- On some of the Minesweepers I know that right clicking on the numbers automatically cleared some of the squares without a mineunderneath; I didn't include this feature.
+- On some of the official Minesweepers I know that right clicking on the numbers automatically cleared some of the squares with no mine underneath; I didn't include this feature.
 
 - Currently this recreation only has one game size available; 40x40 which was the intermediate level. In the future I may add the easy and hard level too, and possibly the custom level.
 
@@ -20,7 +20,7 @@ This game runs and works as expected (to my knowledge).
 
 ## Language
 
-This was built in **Python 3**.
+This was built in **Python 3** with the **Pygame** library.
 
 ## Dependencies
 
