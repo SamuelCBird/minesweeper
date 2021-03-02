@@ -16,13 +16,15 @@ This game runs and works as expected (to my knowledge).
 
 - Currently this recreation only has one game size available; 40x40 which was the intermediate level. In the future I may add the easy and hard level too, and possibly the custom level.
 
+- If you have lost the game (clicked on a mine), the unclicked mines still open.
+
 ## Language
 
-This was built in *Python 3*.
+This was built in **Python 3**.
 
 ## Dependencies
 
-*Pygame1.9.2*
+**Pygame1.9.2**
 
 ## Screenshots
 
